@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(rgb(246, 246, 249), rgb(167, 165, 166));
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    background-attachment: fixed;
+}
+
+html {
+    height: 100%;
+}
+
+.main {
+    min-height: 100%;
+    margin-bottom: -60px;
+}
+
+.portret {
+    width: 25%;
+    height: max-content;
+    border: 5px;
+    border-color: black;
+}
+
+.header {
+    margin-left: 10%;
+}
+
+.main-menu {
+    display: flex;
+}
+
+.hole {
+    width: 25%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.hole:hover {
+    background-color: gray;
+}
+
+.content {
+    display: flex;
+    background-color: antiquewhite;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+    height: 60px;
+}
+
+.button {
+
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: rgb(240, 206, 161);
+}
